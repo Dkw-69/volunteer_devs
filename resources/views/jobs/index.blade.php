@@ -14,7 +14,7 @@
           <h6 class="section-subtitle text-muted m-0">NGOs seeking your assistance.</h6>
         </div>
         <div class="row mb-5">
-          @unless(count($jobs) == 0)
+          @unless(count($jobs) === 0)
             @foreach($jobs as $job)
               <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
                 <div class="job-card mb-4">

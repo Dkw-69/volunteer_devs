@@ -23,7 +23,7 @@
             <h2>Explore Top Talent</h2>
             <h6 class="section-subtitle text-muted m-0">Skilled and friendly professionals ready to assist you.</h6>
           </div>
-          @unless(count($profiles) == 0)
+          @unless(count($profiles) === 0)
             @foreach($profiles as $profile)
                 @if($profile->id == 1) @continue @endif
                 <div class="col-lg-4 col-md-4 col-sm-12">
