@@ -20,7 +20,7 @@ class Job extends Model
     ];
 
     // scout searchable
-        public function toSearchableArray(){
+    public function toSearchableArray(){
 
         return [
 
